@@ -1059,7 +1059,6 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               />
             )}
           </div>
-
         </div>
       </div>
       {sourcePopupOpen() && <Popup isOpen={sourcePopupOpen()} value={sourcePopupSrc()} onClose={() => setSourcePopupOpen(false)} />}
